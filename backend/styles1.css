@@ -1,0 +1,78 @@
+/* Body Styles */
+body {
+    padding-top: 50px; /* Add space for fixed navbar */
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: transparent; /* Transparent navbar background */
+    border: none;
+}
+
+.navbar-brand {
+    color: #343a40; /* Dark text color for navbar brand */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav li a {
+    color: #343a40; /* Dark text color for navbar links */
+}
+
+/* Container Styles */
+.container {
+    margin-top: 20px; /* Reduce margin top */
+}
+
+/* Logo Styles */
+.logo {
+    width: 120px; /* Adjust size as needed */
+    display: block;
+    margin: 0 auto; 
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #dee2e6; /* Dark gray border */
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6; /* Light gray border between rows */
+}
+
+th {
+    background-color: #f8f9fa; /* Light gray background for header row */
+}
+
+/* Button Styles */
+button {
+    margin-bottom: 20px;
+    background-color: #007bff; /* Blue button background */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Link Styles */
+a {
+    color: #007bff; /* Blue link color */
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
